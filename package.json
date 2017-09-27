@@ -1,0 +1,23 @@
+{
+  "name": "mysql-framework",
+  "version": "0.1.0",
+  "description": "A MySQL Framework using the MySQL node.js driver.",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "andrew dabrowski <andrewfdabrowski@gmail.com>",
+  "license": "MIT",
+  "repository": "afdabro/mysql-framework",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "dependencies": {
+    "mysql": "^2.14.1",
+    "promise": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-google": "^0.9.1",
+    "jest": "^21.0.2"
+  }
+}
