@@ -1,7 +1,12 @@
 # MySql Framework
 The MySQL framework is built on top of the [MySQL pure js client](https://github.com/mysqljs/mysql).
 
-## SQL Command Worker
+## Installation
+ `npm install mysql-framework`
+
+## Usage
+
+### SQL Command Worker
 
 Example usage:
 ```javascript
@@ -38,7 +43,7 @@ sqlFramework.executeCommandsAsync(sqlConnectionManager, commandList)
 });
 ```
 
-## SQL Query Worker
+### SQL Query Worker
 
 Example usage:
 ```javascript
