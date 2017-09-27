@@ -14,7 +14,7 @@ exports.executeCommandsAsync = function executeCommandsAsync(
     const SqlCommandWorker = loadClass('SqlCommandWorker');
     const sqlWorker = new SqlCommandWorker();
     return sqlConnectionManager.executeAsync(
-        (connection) => sqlWorker.queryAsync(
+        (connection) => sqlWorker.executeCommandsAsync(
         connection, sqlCommands));
 };
 
@@ -56,7 +56,7 @@ exports.createSqlConnectionManager = function createSqlConnectionManager(
  * Source: https://github.com/mysqljs/mysql/blob/master/index.js
  */
 function loadClass(className) {
-    const Class = Classes[className];
+    let Class = Classes[className];
 
     if (Class !== undefined) {
       return Class;
