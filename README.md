@@ -1,5 +1,5 @@
 # MySql Framework
-The MySQL framework is built on top of the [MySQL pure js client](https://github.com/mysqljs/mysql).
+Simplify [MySQL pure js client](https://github.com/mysqljs/mysql) code complexity and reduce code duplication with the MySQL framework.
 
 ## Installation
  `npm install mysql-framework`
@@ -10,6 +10,9 @@ The MySQL framework is built on top of the [MySQL pure js client](https://github
 
 Example usage:
 ```javascript
+'use strict';
+const sqlFramework = require('mysql-framework');
+
 /*
 Example connection options
 See the following reference for available options:
@@ -47,6 +50,9 @@ sqlFramework.executeCommandsAsync(sqlConnectionManager, commandList)
 
 Example usage:
 ```javascript
+'use strict';
+const sqlFramework = require('mysql-framework');
+
 /*
 Example connection options
 See the following reference for available options:

@@ -1,0 +1,11 @@
+# Eaxmples directory
+examples
+
+# VSCode IDE settings
+.vscode
+
+# Linting Rules
+.eslintrc.yml
+
+# Travis
+.travis.yml
