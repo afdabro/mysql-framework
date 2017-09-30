@@ -9,3 +9,10 @@ examples
 
 # Travis
 .travis.yml
+
+# Coverage
+coverage
+
+# Tests
+jest.config.json
+tests

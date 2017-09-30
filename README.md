@@ -1,5 +1,8 @@
 # MySql Framework
 [![Build Status](https://travis-ci.org/afdabro/mysql-framework.svg?branch=master)](https://travis-ci.org/afdabro/mysql-framework)
+[![Coverage Status](https://coveralls.io/repos/github/afdabro/mysql-framework/badge.svg?branch=master)](https://coveralls.io/github/afdabro/mysql-framework?branch=master)
+
+
 Simplify [MySQL pure js client](https://github.com/mysqljs/mysql) code complexity and reduce code duplication with the MySQL framework.
 
 ## Installation

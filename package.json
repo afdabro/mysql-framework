@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "A MySQL Framework using the MySQL node.js driver.",
   "scripts": {
-    "test": "jest"
+    "test-ci": "jest --config jest.config.json --coverage"
   },
   "author": "andrew dabrowski <andrewfdabrowski@gmail.com>",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "promise": "^8.0.1"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "eslint": "^4.6.1",
     "eslint-config-google": "^0.9.1",
     "jest": "^21.0.2"
